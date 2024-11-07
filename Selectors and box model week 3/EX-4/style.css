@@ -1,0 +1,101 @@
+.container{
+    background-color: rgb(228, 250, 249);
+    width: 300px;
+    height: 430px;
+    margin: auto;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    border: 1px solid rgb(138, 238, 247);
+}
+
+.profile{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+h4{
+    font-size: medium;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+p{
+    font-size: 12px;
+    text-align: center;
+}
+
+#job{
+    color: rgb(95, 94, 94);
+    margin-top: 0;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.con{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    background-color: rgb(84, 126, 147);
+    border-radius: 15px;
+    width: 42%;
+    height: 30px;
+    margin: 10px;;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+.button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(42, 109, 225);
+    border: 1px solid rgb(42, 109, 255);
+}
+
+.button:last-child{
+    background-color: rgb(255, 255, 255);
+    color: rgb(84, 126, 147);
+    border: 1px solid rgb(84, 126, 147);
+}
+
+.button:last-child:hover{
+    background-color: rgb(84, 126, 147);
+    color: white;
+    border: none;
+}
+
+.button-con{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+.some-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    display: block;
+    text-align: center;
+    color: gray;
+    margin-left: 10px;
+    margin-right: 10px;
+}

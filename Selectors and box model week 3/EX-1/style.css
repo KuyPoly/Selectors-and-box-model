@@ -1,0 +1,33 @@
+body {
+    background: grey;
+    font-family: sans-serif;
+}
+
+.box{
+    background-color: white;
+    padding-top: 20px;
+    margin: 30px 100px 30px 100px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+button{
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.green{
+    background-color: green;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.purple{
+    background-color: purple;
+}

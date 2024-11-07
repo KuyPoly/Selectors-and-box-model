@@ -1,0 +1,58 @@
+body{
+    background-color: #bdc3c7;
+}
+ 
+h1{
+    color: #9b59b6;
+}
+
+h2{
+    color: orange;
+}
+
+li{
+    color: rgb(0, 0, 255);
+}
+
+p{
+    background-color: yellow;
+}
+
+input{
+    border: 3px solid red;
+}
+
+.hello{
+    background-color: white;
+}
+
+div p{
+    font-size: 25px;
+}
+
+input[type="text"]{
+    background-color: gray;
+}
+/* MANDATORY CHALLENGES */
+
+input[type="checkbox"]:checked{
+    margin-left: 50px;
+}
+
+label {
+    text-transform: uppercase;
+}
+
+#special:first-letter{
+    color: green;
+    font-size: 100px;
+}
+
+h1:hover{
+    color: blue;
+}
+/* BONUS CHALLENGES */
+/*You may need to research some other selectors and properties*/
+
+/* Make the <h1> element's color change to blue when hovered over */
+
